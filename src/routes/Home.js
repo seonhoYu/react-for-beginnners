@@ -30,6 +30,7 @@ function Home(){
                                                 title={movie.title}
                                                 year={movie.year}
                                                 summary={movie.summary}
+                                                showSummaryAll={false}
                                                 genres={movie.genres}>
                                             </MovieItem>)
                 }
